@@ -1,0 +1,48 @@
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.ipynb_checkpoints/
+build/
+dist/
+*.egg-info/
+
+# Local data and generated study results
+/data/*
+!/data/README.md
+/results/*
+!/results/README.md
+
+# Legacy output locations
+/speed_dating_data.csv
+/recommendation_results.csv
+/figures/
+
+# Local configuration and credentials
+.agents/
+.aws/
+.codex/
+.env
+.env.*
+!.env.example
+
+# Editor, OS and temporary files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+*.log
+*.tmp
+*.bundle
+/HANDOFF.md
